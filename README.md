@@ -42,7 +42,6 @@ Stop
 
 
 Program 2 For Loop: Print "SIT" 5 times.
-Explanation:
 In this program, we will print the word "SIT" using a for loop that runs from 0 to 4, and then repeats the process five times.
 
 Algorithm:
@@ -56,7 +55,6 @@ Stop
 
 
 Program 3 While Loop: Print 1 to 20.
-Explanation:
 In this program, we will use a while loop to print from 1 to 20. The process will start from 0 and increment to 20.
 
 Algorithm:
@@ -70,7 +68,6 @@ Stop
 
 
 Program 4 While Loop: Password Checker
-Explanation:
 This program sets a password (minimum of 8 characters), confirms the password, and then allows the user to check the password repeated or exit by entering 'x'.
 
 Algorithm:
@@ -89,7 +86,6 @@ loop repeats untill x is entered.
 
 
 Program 5 While Loop: Reverse an Entered Number
-Explanation:
 The program reverses the number simply by taking digits from the last and printing them in reverse order we use %(Modulus) to get last digit and /(division) to update entered number.
 
 Algorithm:
@@ -103,7 +99,7 @@ Floor divide number by 10.
 Stop
 
 
-Nested For:
+Program 6 Nested For:
 This program shows how nested loops work in C++. The outer loop runs twice, and for each iteration, the inner loop runs three times, printing "Outer" and "Inner" values to demonstrate flow control.
 
 Algorithm:
@@ -118,7 +114,7 @@ End outer loop.
 End 
 
 
-Simple Pyradmid:
+Program 7 Simple Pyradmid:
 Prints a left-aligned triangle of stars. The outer loop runs n times, and for each row, the inner loop prints stars equal to the row number, forming an incremental star pattern line by line.
 
 Algorithm:
@@ -133,7 +129,7 @@ Move to new line.
 End 
 
 
-Flipped Simple Pyramid:
+Program 8 Flipped Simple Pyramid:
 Prints a right-aligned triangle. For each row, spaces are printed first to push the stars to the right, then stars are printed in increasing order using nested loops, creating a slanted effect.
 
 Algorithm:
@@ -145,4 +141,18 @@ Print n-i spaces.
 Print i stars.
 Move to new line.
 End loop.
-End program.
+End 
+
+Program 9 Flyod Number:
+This program prints Floyd’s triangle using numbers. A counter starts from 1 and prints increasing numbers row-wise, with each row containing one more number than the last using nested loops.
+
+Algorithm:
+
+Start program.
+Input n.
+Set counter c = 1.
+Loop i from 1 to n.
+Loop j from 1 to i.
+Print and increment c.
+Move to new line.
+End 
